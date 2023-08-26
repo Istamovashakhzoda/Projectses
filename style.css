@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+
+h1 {
+  font-family: "Bungee Outline", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 25vh;
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  filter: drop-shadow(calc( var(--x) * pi() * 1) calc( var(--y) * pi() * 1) 0.3px hsl(270, 100%, 12%)) drop-shadow(calc( var(--x) * pi() * 2) calc( var(--y) * pi() * 2) 0.6px hsl(270, 100%, 24%)) drop-shadow(calc( var(--x) * pi() * 3) calc( var(--y) * pi() * 3) 0.9px hsl(270, 100%, 36%)) drop-shadow(calc( var(--x) * pi() * 4) calc( var(--y) * pi() * 4) 1.2px hsl(270, 100%, 48%)) drop-shadow(calc( var(--x) * pi() * 5) calc( var(--y) * pi() * 5) 1.5px hsl(270, 100%, 60%)) drop-shadow(calc( var(--x) * pi() * 6) calc( var(--y) * pi() * 6) 1.8px hsl(270, 100%, 72%));
+}
+
+/*# sourceMappingURL=style.css.map */
